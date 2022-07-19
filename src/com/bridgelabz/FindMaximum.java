@@ -1,16 +1,16 @@
 package com.bridgelabz;
 
 public class FindMaximum {
-	public static Integer maxOfInteger(Integer a1, Integer a2, Integer a3) {
-		int max = a1;
-		if (a2.compareTo(max) > 0)
-			max = a2;
-		if (a3.compareTo(max) > 0)
-			max = a3;
+	public static float maxOfFloat(Float f1, Float f2, Float f3) {
+		float max = f1;
+		if (f2.compareTo(max) > 0)
+			max = f2;
+		if (f3.compareTo(max) > 0)
+			max = f3;
 		return max;
 	}
 
 	public static void main(String[] args) {
-		System.out.println("The Maximum Value Between The Three Integer is: " + maxOfInteger(21,98,43));
+		System.out.println("The Maximum Value Between The Three Float is: " + maxOfFloat(2.1f,9.8f,4.3f));
 	}
 }
